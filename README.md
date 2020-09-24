@@ -14,8 +14,11 @@ hydra -L admin.txt -P pass.txt 10.11.2.34 rdp
 
 * 也可以执行
 hydra -l admin -p password ftp://localhost/
+
 hydra -L default_logins.txt -p test ftp://localhost/
+
 hydra -l admin -P common_passwords.txt ftp://localhost/
+
 hydra -L logins.txt -P passwords.txt ftp://localhost/
 
 THC-HYDRA-windows
